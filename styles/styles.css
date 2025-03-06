@@ -1,3 +1,141 @@
 * {
   font-family: sans-serif
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 50px;
+  gap: 25px;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.hero-box {
+  height: 400px;
+  gap: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+.hero-h1 {
+  max-width: 300px;
+  margin-bottom: 0;
+  font-size: 48px;
+}
+
+.hero-description {
+  max-width: 400px;
+  margin: 8px 0px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-button {
+  align-self: flex-start
+}
+
+.hero-image {
+  width: 550px;
+  height: 250px;
+  background-color: gray;
+}
+
+/* SECTION TWO */
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  margin: 20px 0px;
+}
+
+.two-info {
+  display: flex;
+  gap: 50px;
+  text-align: center;
+  color: #838383;
+  margin-top: 20px;
+}
+
+.info-image {
+  border: 5px solid #3882F6;
+  border-radius: 20px;
+  box-sizing: content-box;
+}
+
+/* SECTION THREE */ 
+
+.section-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e7eb;
+  height: 400px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  color: #1f2937;
+  max-width: 1050px;
+  font-size: 36px;
+}
+
+.quote-cc {
+}
+
+/* SECTION FOUR */ 
+
+.section-four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+}
+
+.section-four-box {
+  box-sizing: border-box;
+  background-color: #3882F6;
+  border: #3882F6;
+  border-radius: 8px;
+  width: 700px;
+  color: white;
+  padding: 25px;
+}
+
+.final-button {
+  border: 2px solid white;
+  border-radius: 8px;
+}
+
+/* Cleaning CSS */
+.dark {
+  background-color: #1f2937;
+  color: #F9FAF8;
+}
+
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 8px 23px;
+  border-radius: 8px;
+  border: none;
+}
+
